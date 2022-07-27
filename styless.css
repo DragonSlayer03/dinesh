@@ -1,0 +1,72 @@
+#title{
+    background-color: black;
+    color: #fff;
+    font-weight: bolder;
+}
+body{
+    background-color: black;
+
+}
+hr{
+    border-top: 1px solid red;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: lighter;
+    margin: auto auto auto 500px ; 
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: large;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navitem{
+    padding: 0 18px;
+    font-size: medium;
+    font-family: 'ubuntu';
+}
+.image{
+    border-radius: 50%;
+    height: 200px;
+}
+.col-lg-4{
+    text-align: center;
+    padding: 50px;
+    
+}
+.meme{
+    height: 300px;
+}
+.col-lg-12{
+    margin: auto auto auto 400px;
+    max-width:  50%;
+    height: auto;
+}
+.project{
+    margin: auto auto auto 700px;
+    background-color: white;
+}
+.gallery{
+    height: 200px;
+    margin: 10px 50px;
+    padding: 5px;
+    width: 280px;
+    filter: grayscale(0);
+    transition: .51s;
+}
+.gallery:hover{
+    filter: grayscale(100%);
+}
